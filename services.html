@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="service.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+
+    <header class="header">
+        <a href="#" class="logo"><span>Peace</span>PMP.</a>
+        <nav class="navbar">
+            <a href="#" class="active">Portfolio</a> 
+            <a href="#services">Services</a>
+            <a href="#about">About</a>
+        </nav>
+
+        <a href="#contact-form" class="contact">Contact Me</a>
+        <a href="#"><i class="fa-brands fa-github"></i></a>
+    </header>
+
+    <section class="home">
+        <div class="home-content">
+            <h3>Hello 👋,</h3>
+            <h1>I'm <span>Peace,<br></span>a Frontend Developer</h1>
+
+            <p>
+            I'm a web designer and fontend developer focused on crafting clean & user-friendly 
+            experiences based in Nigeria. I am passionate about building excellent software that improves
+        the lives of those around me. 
+              </p>
+
+              <div class="btn-box">
+                <button class="btn1">Hire Me</button>
+                <button class="btn2">Experience</button>
+              </div>
+        </div>
+
+        <div class="img-box">
+            <img src="favour love.jpg" alt="Profile picture">
+        </div>
+    </section>
+
+<hr>
+
+    <section id="about">
+        <div class="about-img">
+            <img src="favour love.jpg" alt="profile picture">
+        </div>
+
+        <div class="about-content">
+             <h2 class="heading">About <span>Me</span></h2>
+             <h3>PERSONAL INFOS</h3>
+             
+             <p class="para1">
+                First Name: Peace<br>
+                Age: 27yrs<br>
+                Freelance: Available<br>
+                Skype: peace.petros<br>
+             </p>
+             <p class="para2">
+                Last Name:Petros<br>
+                Nationality: Nigerian<br>
+                Address: Nigeria<br>
+                Languages: English, Spanish
+             </p>
+
+            <p class="then"> I am a passionate  and frontend developer with a love for crafting intuitive and visually
+                <br> stunning web experiences. With adequate experience, I've developed a strong <br>
+                 foundation in HTML, CSS, and JavaScript. I took some online courses on web development on edX to broaden my knowledge<br>
+                 and I am based in Ogun state.<br><br>
+                 
+                    <b>Skills</b><br>
+                    Proficient in HTML, CSS, and JavaScript<br>
+                    Strong understanding of responsive design and accesibility<br>
+                    Familiarity with Git<br><br>
+                      
+                    <b>Hobbies & Interests</b><br>
+                    traveling
+
+                </p>
+
+
+
+                <a href="#" class="btn2">Experience</a>
+        </div>
+    </section>
+
+    <!-- <section id="services">
+      
+        <div class="creative-design">
+            <a href="Projects/kitchen.html">Creative Design</a>
+            <p>I offer creative design services that bring your digital version to life.
+            My design expertise complements my technical skills, ensuring a seamless blend
+            of form and function.<br>
+
+            <a href="kitchen.html">Project 1</a>
+            </p>
+
+        </div>
+
+    </section> -->
+
+    <section id="contact-form">
+        <h2 class="contact-me">Get In <span>Touch</span></h2>
+
+        <div class="stuff">
+            <h1 class="hello">Don't Be Shy!</h1>
+            <p class="info">Feel free to get in touch with me.
+                I am always open to discussing new projects, creative ideas or opportunities
+                to be a part of your visions.<br>
+                </p>
+
+                    
+                <i class="fa-solid fa-map"></i>
+                <label for="address">address point</label><br>
+                    <text>19, itako street, Ogun state, Nigeria.</text><br>
+
+                <i class="fa-solid fa-envelope-open"></i>
+                <label for="email">Mail me</label><br>
+                    <text>peacepetrosmokelu1234@gmail.com</text><br>
+
+                <i class="fa-solid fa-phone"></i>
+                <label for="phonenum">Call me</label><br>
+                    <text>+2348150299347</text>
+
+            <!-- </p> -->
+
+        </div>
+
+
+        <form action="#" name="form" id="form">
+            <div class="input-box">
+                <input class="name" type="text" placeholder="YOUR NAME" name="form">
+                <input class="email" type="email" placeholder="YOUR EMAIL" name="form">
+                <input class="subject" type="text" placeholder="YOUR SUBJECT" name="form">
+            </div>
+            <textarea name="textarea" id="textarea" cols="30" rows="10" placeholder="YOUR MESSAGE"></textarea>
+
+            <input type="submit" value="SEND MESSAGE" class="submit"> 
+        </form>
+    </section>
+    
+
+    <footer>
+
+        <div class="social">
+            <a href="twitter.com\PeacePMP"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#"><i class="fa-brands fa-square-reddit"></i></a>
+            <a href="#"><i class="fab fa-facebook"></i></a>
+        </div>
+
+       <ul class="list">
+        <li>
+            <a href="#">FAQ</a>
+        </li>
+        <li>
+            <a href="#">Services</a>
+        </li>
+        <li>
+            <a href="#">About Me</a>
+        </li>
+        <li>
+            <a href="#">Contact</a>
+        </li>
+        <li>
+            <a href="#">Privacy Policy</a>
+        </li>
+       </ul>
+
+       <p class="copyright">      
+      &copy; <span id="current year"></span> PeacePMP | All Rights Reserved.</p>
+    </footer>
+
+
+ 
+ <script>
+   document.getElementById('current year').textContent = new Date().getFullYear();
+ </script>
+</body>
+</html> 

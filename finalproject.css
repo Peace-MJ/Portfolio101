@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   font-size: 12px;
+   /* background-color: cadetblue; */
+   color: white;
+   background: url(flower\ garden.jpg);
+   background-size: cover;
+}
+#logo{
+    background-color: rgb(200, 226, 250);
+    display: flex;
+    width: 100%;
+    margin-top: 40px;
+}
+#logo img{
+    width: 100px;
+    height: 100px;
+    margin: auto;
+}
+.space{
+    background-color: white;
+    background: white;
+    width: 100%;
+}
+#heading{
+    text-align: center;
+    width: 100%;
+    margin-top: 40px;
+    background-color: bisque;
+}
+#heading h3{
+  color: rgb(2, 2, 161);
+  background-color: yellow;
+  /* width: 28%; */
+  margin: auto;
+  font-size: 20px;
+}
+#heading .para{
+    color:  rgb(2, 2, 161);
+    font-size: 14px;
+    margin-top: 8px;
+}
+.transparent-section{
+    width: 100%;
+    max-width: 360px;
+    margin: 0 auto;
+    background-color: rgba(250, 242, 242, 0);
+    border-radius: 10px;
+    /* padding: 20px; */
+    box-shadow: (0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(10px);
+    /* background-color: gray; */
+    
+}
+.bodym{
+    margin-top: 30px;
+    text-align: center;
+    font-size: 1rem;
+}
+h4{
+    color:  rgb(2, 2, 161);
+    background-color: rgb(69, 247, 98);
+    /* width: 33%; */
+    /* text-align: center; */
+    /* display: flex; */
+    margin: auto;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    /* margin-left: auto;
+    margin-right: auto; */
+
+
+}
+.h4executiv{
+    color: rgb(49, 49, 49);
+}
+span{
+    color:  rgb(2, 2, 168);
+}
+hr{
+    width: 300px;
+    margin: auto;
+    background-color: rgb(2, 2, 168);
+    border-bottom: 1px solid  rgb(2, 2, 168);
+}
+
+.icons{
+    font-size: 17px;
+    color:  rgb(9, 9, 100);
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background-color: cyan;
+}
+i{
+    margin-right: 15px;
+}
+
+footer{
+    background-color: black;
+    height: 120px;
+}
+#foot{
+    /* margin-left: 100px; */
+    padding-top: 17px;
+    text-align: center;
+    /* margin-left: 40px; */
+}
+#foot i{
+    margin-left: 6px;
+    margin-right: 6px;
+}
+.fa-facebook{
+      /* padding-right: 3px; */
+}
+.fa-twitter{
+    
+    /* padding-right: 3px; */
+}
+#foot-memo{
+    color: white;
+    word-spacing: 3px;
+}
+.Copyright{
+    text-align: center;
+    margin-top: 10px;
+    padding-top: 20px;
+}
+#current-year{
+    color: white;
+}
+#lastSearch{
+width: 80%;
+/* padding-top: 10px; */
+position: relative;
+display: inline-block;
+overflow: hidden;
+}
+input{
+    height: 30px;
+    padding-left: 30px;
+    width: 90%;
+    
+}
+.fa-magnifying-glass{
+    position: absolute;
+    top: 50%;
+    /* left: 10px; */
+    right: 10px;
+    color: red;
+    transform: translateY(-50%);
+    background-color: blue;
+    width: 20%;
+    margin-left: 20px;
+
+}
+.caret-icon{
+    position: absolute;
+    left: calc(10% + 10px);
+    cursor: pointer;
+    transform: translateY(-50%);
+    border: 2px solid white;
+    border-radius: 50%;
+    padding: 2px;
+    color: gold;
+    
+    
+}
